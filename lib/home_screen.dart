@@ -22,7 +22,7 @@ class _home_screenState extends State<home_screen> {
     return Scaffold(
       appBar:AppBar(
         title:Padding(
-          padding: const EdgeInsets.only(left: 16.0),
+          padding: const EdgeInsets.only(left: 17.0),
           child: Text('To Do List',style: Theme.of(context).primaryTextTheme.headline1,),
         ) ,
         toolbarHeight:MediaQuery.of(context).size.height*.17 , // Set this height
@@ -57,14 +57,4 @@ class _home_screenState extends State<home_screen> {
   }
 }
 
-/*
-Column(
-        children: [
-          Container(
-            color: MyTheme.blue_color,
-            height: MediaQuery.of(context).size.height*.075,
-          ),
-          tabs[selected_index]
-        ],
-      ),
- */
+
